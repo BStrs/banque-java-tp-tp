@@ -59,19 +59,19 @@ public class CompteTest {
 	@Test
 	public void testCompte(){
 		//test du constructeur sans parametre
-		Compte compte2 = new Compte();
-		assertNotNull(compte2);
+		Compte compte = new Compte();
+		assertNotNull(compte);
 		
 	}
 	
 	@Test
 	public void testCompteParam(){
 		//test du constructeur sans parametre
-		Compte compte3 = new Compte(4533654,11234,"blablbla.fr");
-		assertNotNull(compte3);
-		assertEquals(4533654, compte3.getNumero());
-		assertEquals(11234, compte3.getSolde(),0);
-		assertEquals("blablbla.fr", compte3.getReferenceClient());
+		Compte compte = new Compte(4533654,11234,"blablbla.fr");
+		assertNotNull(compte);
+		assertEquals(4533654, compte.getNumero());
+		assertEquals(11234, compte.getSolde(),0);
+		assertEquals("blablbla.fr", compte.getReferenceClient());
 		
 	}
 	
