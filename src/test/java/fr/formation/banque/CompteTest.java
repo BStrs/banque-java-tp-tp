@@ -39,7 +39,7 @@ public class CompteTest {
 	@Test
 	public void testSetSolde() {
 		
-		compte.setSolde(11121);
+		compte.setSolde(11123);
 		assertEquals(11123, compte.getSolde(),0);
 	}
 	
